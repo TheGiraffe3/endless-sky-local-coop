@@ -4,7 +4,7 @@ on:
   push:
     # Run for pushes to master, e.g. a PR was merged ...
     branches:
-      - master
+      - main
     # ... and only when we've possibly changed how the game will function.
     paths:
     - 'source/**'
